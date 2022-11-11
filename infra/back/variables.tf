@@ -17,7 +17,7 @@ variable "owner" {
 }
 
 variable "stage" {
-  type        = string
+  type        = string 
   default     = "dev"
   description = "stage dos arquivos"
 }

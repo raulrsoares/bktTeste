@@ -14,7 +14,7 @@ resource "aws_s3_bucket_acl" "bucketTeste-acl" {
 
 resource "aws_s3_bucket_public_access_block" "codepipeline-block-public" {
   bucket = aws_s3_bucket.bucketTeste.id
-
+ 
   block_public_acls       = true
   block_public_policy     = true
   ignore_public_acls      = true

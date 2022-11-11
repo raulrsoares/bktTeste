@@ -15,7 +15,7 @@ terraform {
     dynamodb_table = "tf-dynamo-dev-backend-tfstate-infras"
   }
 }
-
+ 
 provider "aws" {
   region  = var.region_aws
   profile = var.profile_aws

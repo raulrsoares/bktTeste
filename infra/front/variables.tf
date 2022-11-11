@@ -33,7 +33,3 @@ variable "bucketTeste" {
   default     = "testeguatlantis"
   description = "Nome Global dos recursos"
 }
-
-variable "BACKEND_TFSTATE" {
-  type        = string
-}

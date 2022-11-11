@@ -26,7 +26,7 @@ variable "app_name" {
   type        = string
   default     = "testeatlantis"
   description = "Nome Global dos recursos"
-}
+} 
 
 variable "bucketTeste" {
   type        = string

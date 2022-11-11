@@ -8,7 +8,7 @@ terraform {
   required_version = ">= 0.14.9"
 
   backend "s3" {
-    bucket = "${var.BACKEND_TFSTATE}"
+    bucket = "${BACKEND_TFSTATE}"
     key    = "terraform/tfstate/teste/terraform.tfstate"
     region = "us-east-1"
     encrypt = "true"

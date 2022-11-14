@@ -7,3 +7,4 @@ terraform {
     dynamodb_table = "tf-dynamo-dev-backend-tfstate-infras"
   }
 }
+ 

@@ -38,4 +38,3 @@ variable "bucketTeste" {
   type        = string
   default     = "testeguatlantis"
   description = "Nome Global dos recursos"
-}

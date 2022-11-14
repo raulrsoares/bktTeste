@@ -11,7 +11,7 @@ terraform {
 provider "aws" {
   region  = var.region_aws
   profile = var.profile_aws
-
+     
   default_tags {
     tags = {
       OWNER = var.owner

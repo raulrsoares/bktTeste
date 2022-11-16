@@ -28,6 +28,12 @@ variable "app_name" {
   description = "Nome Global dos recursos"
 }
 
+variable "repository_description" {
+  type        = string
+  default     = "descrição de teste"
+  description = "descrição de teste"
+}
+
 variable "bucketTeste" {
   type        = string
   default     = "testeguatlantis"

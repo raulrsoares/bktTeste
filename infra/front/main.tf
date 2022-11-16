@@ -13,7 +13,7 @@ provider "aws" {
   profile = var.profile_aws
 
   default_tags {
-    tags = {
+    tags = { 
       OWNER = var.owner
       STAGE = var.stage
     }

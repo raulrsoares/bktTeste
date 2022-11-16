@@ -7,7 +7,7 @@ terraform {
   }
   required_version = ">= 0.14.9"
 }
- 
+
 provider "aws" {
   region  = var.region_aws
   profile = var.profile_aws
@@ -19,3 +19,4 @@ provider "aws" {
     }
   }
 }
+    
